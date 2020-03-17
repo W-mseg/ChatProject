@@ -6,7 +6,7 @@ body {
 }
 
 /* line 6, ../sass/style.scss */
-.button {
+.button, #registerform button, #registerform a {
   color: black;
   text-decoration: none;
   background-color: white;
@@ -69,6 +69,13 @@ form {
 }
 
 /* line 65, ../sass/style.scss */
+#registerform button, #registerform a {
+  width: 150px;
+  position: relative;
+  top: 0;
+}
+
+/* line 71, ../sass/style.scss */
 #registerform {
   display: flex;
   justify-content: center;
@@ -76,5 +83,13 @@ form {
   flex-direction: column;
   width: 150px;
   position: relative;
-  top: 80px;
+  top: 150px;
+}
+
+/* line 89, ../sass/style.scss */
+.chatform {
+  display: flex !important;
+  justify-content: left !important;
+  margin-left: 15px;
+  width: 350px;
 }

@@ -9,7 +9,7 @@
     <br>
     <a href="./registerpage.php" class="button" id="RegisterButton">Register</a>
     <br>
-    <a href="#" class="button" id="ChatButton">Chat</a>
+    <a href="./chat.php" class="button" id="ChatButton">Chat</a>
 </div>
 </body>
     <script src="./assets/js/main.js"></script>

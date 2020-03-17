@@ -19,5 +19,5 @@ if(isset($_POST['text'])){
 
 $reps = $bdd->query("INSERT INTO messages (`message`,`owner`) VALUES('$text','$pseudo')");
 
-header('location:index.php');
+header('location:chat.php');
 
