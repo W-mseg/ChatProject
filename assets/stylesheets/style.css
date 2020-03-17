@@ -1,0 +1,45 @@
+/* line 1, ../sass/style.scss */
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+/* line 6, ../sass/style.scss */
+.button {
+  color: black;
+  text-decoration: none;
+  background-color: white;
+  padding: 5px 0;
+  width: 130px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  top: 150px;
+}
+
+/* line 23, ../sass/style.scss */
+#chat {
+  border: solid white;
+  width: 500px;
+  height: 600px;
+}
+
+/* line 28, ../sass/style.scss */
+.disparition {
+  display: none;
+}
+
+/* line 31, ../sass/style.scss */
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 150px;
+  position: relative;
+  top: 25px;
+}

@@ -1,0 +1,42 @@
+body{
+background-color: black;
+  color: white;
+  margin: 0;
+}
+%button{
+  color: black;
+  text-decoration: none;
+  background-color: white;
+  padding: 5px 0;
+  width: 130px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  top: 150px;
+}
+.button{
+@extend %button;
+}
+#chat{
+  border: solid white;
+  width: 500px;
+  height: 600px;
+}
+.disparition{
+  display: none;
+}
+%inputarea{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 150px;
+  position: relative;
+  top: 25px;
+}
+form{
+@extend %inputarea;
+}
