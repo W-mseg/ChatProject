@@ -45,7 +45,7 @@ form {
 }
 
 /* line 40, ../sass/style.scss */
-.login {
+.login, #registerform input {
   border-radius: 15px;
   padding: 0.5em 1em;
 }
@@ -66,4 +66,15 @@ form {
   padding: 5px 0;
   text-decoration: none;
   margin-top: 15px;
+}
+
+/* line 65, ../sass/style.scss */
+#registerform {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  flex-direction: column;
+  width: 150px;
+  position: relative;
+  top: 80px;
 }

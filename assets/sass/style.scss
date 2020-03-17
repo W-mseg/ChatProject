@@ -62,3 +62,15 @@ position: relative;
     margin-top: 15px;
   }
 }
+#registerform{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  flex-direction: column;
+  width: 150px;
+  position: relative;
+  top: 80px;
+  input{
+  @extend %input;
+  }
+}
